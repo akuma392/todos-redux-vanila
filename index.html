@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c91808f2e8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.1.0/redux.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>todos</h1>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="input-block">
+          <div class="icon">
+            <i class="fas fa-caret-down"></i>
+          </div>
+          <input
+            class="input-text"
+            id="text"
+            type="text"
+            placeholder="what needs to be done?"
+          />
+        </div>
+        <ul></ul>
+        <div>
+          <p class="action item"></p>
+          <p class="action All">All</p>
+          <p class="action Active">Active</p>
+          <p class="action Completed">Completed</p>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
